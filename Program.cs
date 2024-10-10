@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            PermiumMember permiumMember = new PermiumMember("Mahla Motiee",25);
+            permiumMember.DisplayMembershipDetails();
         }
+        
     }
 }
